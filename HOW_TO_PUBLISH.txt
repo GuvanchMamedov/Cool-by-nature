@@ -1,0 +1,31 @@
+COOL BY NATURE – INSTALLABLE APP (Team Heatbreakers)
+====================================================
+
+This folder is an installable web app (PWA). To install it, it must be
+opened from an https:// link. Double-clicking index.html still works,
+but then it can't be installed.
+
+OPTION A – GitHub Pages (free, permanent link)
+1. Sign in at github.com and create a new PUBLIC repository,
+   e.g. "cool-by-nature".
+2. Click "uploading an existing file" and drag in EVERYTHING inside this
+   folder (index.html, manifest.webmanifest, sw.js and the icons folder).
+   Click "Commit changes".
+3. Go to Settings > Pages > "Deploy from a branch" > main / (root) > Save.
+4. After 1–2 minutes your link is:
+   https://YOUR-USERNAME.github.io/cool-by-nature/
+
+OPTION B – Netlify Drop (fastest)
+1. Go to app.netlify.com/drop and sign in (free), so the site stays up.
+2. Drag this whole folder onto the page. You get an https:// link at once.
+
+INSTALLING THE APP
+- Laptop (Chrome or Edge): open the link and click the Install icon at the
+  right end of the address bar.
+- Android (Chrome): menu (three dots) > "Install app" / "Add to Home screen".
+- iPhone/iPad (Safari): Share > "Add to Home Screen".
+After the first visit it works fully offline.
+
+UPDATING LATER
+Replace index.html, and change VERSION in sw.js (e.g. 'cbn-v2') so
+installed copies pick up the new version.
